@@ -1,0 +1,40 @@
+.image-1{
+  height: 50px;
+  width: 30px;
+}
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+*{
+  color: red;
+} 
+#cry{
+  color: green;
+}
+div h1{
+  color: blue;
+  transition: 1s;
+}
+div + p{
+  color: blueviolet;
+}
+div ~ p{
+  color: green;
+}
+div h1:hover{
+  color: rgb(7, 7, 15);
+  transition: 1s;
+}
+input:focus{
+color: green;
+border-width: 2px;
+border-style: solid;
+
+}
+input{
+  outline: none;
+}
+.pea{
+  color: hsl(30, 80, 5);
+}

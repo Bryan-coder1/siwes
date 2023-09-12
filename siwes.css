@@ -1,0 +1,24 @@
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  background-color: black;
+  color: white;
+}
+.start th{
+  color: green;
+  border-color: white;
+}
+.run th{
+  color: orange;
+  border-color: white;
+}
+h2{
+  text-align: center;
+  font-style: bold ;
+  
+}
+h4{
+  text-align: center;
+  margin-bottom: 2px;
+  
+}

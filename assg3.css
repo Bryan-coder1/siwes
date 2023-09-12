@@ -1,0 +1,122 @@
+.jtp{
+  background-color: rgb(234, 234, 236);
+  display: grid;
+  grid-template-rows: 8% 8% 70% 8%;
+  grid-template-columns: repeat(1,1fr) repeat(2,1fr) repeat(1,1fr);
+  margin-left: 30%;
+  min-height: 80vh;
+  width: 28%;
+  border-radius: 5px;
+  padding: 12px 12px 12px 12px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  text-align: center;
+
+}
+.din{
+  border: 1px  black;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  border-radius: 5px;
+}
+.din:first-child{
+  background-color: rgb(183, 23, 49);
+  grid-column: 1/5 ;
+  
+ 
+}
+.din:nth-child(2){
+  background-color: green;
+  grid-column: 1/5;
+}
+.din:nth-child(3){
+  background-color: pink;
+  grid-column: 1/2;
+
+}
+.din:nth-child(4){
+  background-color: lightblue;
+  grid-column: 2/5;
+  display: grid;
+  grid-template-rows: 75% 15%;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  padding: 10px 10px 10px 10px;
+}
+.din:nth-child(5){
+  background-color: blueviolet;
+  grid-column: 1/5;
+  
+}
+.kpk{
+border: 1px solid black;
+ 
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  border-radius: 5px;
+}
+.kpk:first-child{
+  background-color: rgb(81, 123, 240);
+  grid-column: 1/5;
+  grid-row: 1/2;
+  margin-top: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: grid;
+  grid-template-rows: 40% 40%;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  padding: 10px 10px 10px 10px;
+
+}
+.kpk:nth-child(2){
+  background-color: rgb(46, 37, 173);
+  grid-row: 2/3;
+  grid-column: 1/5;
+}
+.hoh{
+  border: 1px solid black;
+ 
+  grid-row-gap: 3px;
+  grid-column-gap: 3px;
+  border-radius: 5px; 
+  margin-top: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+
+}
+.hoh:first-child{
+  background-color: bisque;
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+.hoh:nth-child(2){
+  background-color: rgb(253, 187, 107);
+  grid-column: 1/5;
+  grid-row: 2/3;
+
+}
+.cont{
+  display: flex;
+  
+}
+.jbl{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  
+}
+.jbl:first-child{
+  background-color: blue;
+  position: absolute;
+  bottom: 100px;
+}
+.jbl:nth-child(2){
+  background-color: beige;
+  position: relative;
+  top: 50px;
+}
+.jbl:nth-child(3){
+  background-color: blue;
+  position: relative;
+  bottom: 50px;
+}
